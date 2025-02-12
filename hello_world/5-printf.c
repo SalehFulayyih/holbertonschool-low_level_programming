@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * Print exactly "Programming is like building a multilingual puzzle
  *
