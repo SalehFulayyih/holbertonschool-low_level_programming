@@ -1,8 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* This program prints the alphabet in lowercase, followed by a new
-*line
+/*
+ * This program prints the alphabet in lowercase, followed by a new
+ * line
 */
 
 int main(void)
