@@ -15,10 +15,11 @@ int main(void)
 {
 	char num, ltr;
 
-        for (num = '0'; num <= '9'; num++)
-                putchar(num);
-        for (ltr = 'a'; ltr <='f'; ltr++)
-                putchar(ltr);
-        putchar('\n');
-        return (0);
+	for (num = '0'; num <= '9'; num++)
+		putchar(num);
+	
+	for (ltr = 'a'; ltr <='f'; ltr++)
+		putchar(ltr);
+	putchar('\n');
+	return (0);
 }
