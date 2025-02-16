@@ -6,8 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - main block
- * Description: This program prints the alphabet in lowercase, followed by a new
- * line
+ * Description: This program prints the alphabet in lowercase.
  * Return: 0
 */
 
