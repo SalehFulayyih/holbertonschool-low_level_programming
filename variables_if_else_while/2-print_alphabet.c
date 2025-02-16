@@ -1,9 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * This program prints the alphabet in lowercase, followed by a new
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
+/**
+ * main - main block
+ * Description: This program prints the alphabet in lowercase, followed by a new
  * line
+ * Return: 0
 */
 
 int main(void)
