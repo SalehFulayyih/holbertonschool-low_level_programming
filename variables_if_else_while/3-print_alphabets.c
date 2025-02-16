@@ -13,7 +13,7 @@
 
 int main(void)
 {
-	char l_ltr,u_ltr;
+	char l_ltr, u_ltr;
 
 	for (l_ltr = 'a'; l_ltr <= 'z'; l_ltr++)
 		putchar(l_ltr);
