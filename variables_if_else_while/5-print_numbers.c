@@ -13,9 +13,9 @@
 
 int main(void)
 {
-	int num;
+	char num;
 
-	for (num = 0; num < 10; num++)
-		printf("%d", num);
+	for (num = '0'; num <= '9'; num++)
+		putchar(num);
 	return (0);
 }
