@@ -1,9 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+/* more headers goes there */
+
 /* betty style doc for function main goes there */
 /**
- * Description: This program prints all possible of tow-digit  and tow digit not equal
+ * main - main block
+ * Description: This program prints all possible of 2-digit like (01, 02, )
  * Return: 0
 */
 
