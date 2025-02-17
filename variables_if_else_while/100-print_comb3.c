@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* betty style doc for function main goes there */
 /**
  * Description: This program prints all possible of tow-digit  and tow digit not equal
  * Return: 0
