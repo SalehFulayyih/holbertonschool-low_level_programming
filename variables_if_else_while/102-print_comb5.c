@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-
 /* betty style doc for function main goes there */
 /**
+ * main - main block
  * Desc.prints all possible combinations of tow tow digit like (00 01, 00 02 .)
  * Return: 0
 */
