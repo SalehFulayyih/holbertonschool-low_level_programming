@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * print_alphbet_x10 - Print ten times the alphbet in lowercase
+ * print_alphabet_x10 - Print ten times the alphbet in lowercase
  * Return:0
  */
 
-void print_alphbet_x10(void)
+void print_alphabet_x10(void)
 {
 	char letter = 'a';
 	int i;
