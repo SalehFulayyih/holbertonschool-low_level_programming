@@ -4,7 +4,7 @@
  * Return:0
  */
 
-print_alphbet_x10(void)
+void print_alphbet_x10(void)
 {
 	char letter = 'a';
 	int i;
