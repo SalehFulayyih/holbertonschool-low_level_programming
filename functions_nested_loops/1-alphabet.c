@@ -1,12 +1,8 @@
 #include "main.h"
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
 /**
- * main - main block
- * Description: Prints the alphabit in lowercase
- * and if it is positive, negative, or zero
- * Return: 0
+ * print_alphabet - In lowercase from a to z
+ * Return:0
  */
 
 void print_alphabet(void)
@@ -17,6 +13,8 @@ void print_alphabet(void)
 	{
 		_putchar(letter);
 		letter++;
+
 	}
 	_putchar('\n');
+
 }
