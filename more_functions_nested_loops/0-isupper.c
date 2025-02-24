@@ -1,5 +1,5 @@
-include "main.h"
-include <ctype.h>
+#include "main.h"
+#include <ctype.h>
 /**
  * _isupper - function that checks for uppercase character
  * @c: character to check isUpper.
