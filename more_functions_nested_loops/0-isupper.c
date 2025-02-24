@@ -12,5 +12,5 @@ int _isupper(int c)
 	if (isupper(c))
 		return(1);
 	else
-		reterun(0);
+		return(0);
 }
