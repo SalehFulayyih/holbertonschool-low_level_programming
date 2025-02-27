@@ -8,13 +8,15 @@
  * Description: copies the string to an array
  * Return: na
  */
-char *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, const char *src)
 {
-	int i;
+	int index = 0;
 
-	for (i = 0; src[i] != '\0'; i++)
-		dest[i] = src[i];
-	for ( ; i < src[i]; i++)
-		dest[i] = '\0';
+	while (src[index])
+	{
+		dest[index] = src[index];
+		index++;
+	}
+
 	return (dest);
 }
