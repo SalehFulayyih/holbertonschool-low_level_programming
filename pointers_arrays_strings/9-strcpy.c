@@ -8,7 +8,7 @@
  * Description: copies the string to an array
  * Return: na
  */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int index = 0;
 
