@@ -1,37 +1,23 @@
-#include<stdio.h>
-#include<stdlib.h>
-/**
- * main- Entry point
-(* a blank line
- *@argc: the number of parameters.
- *@argv: the parameeters in the case the number ob bytes.
-* Description: this program prints opcodes in hexa)?
-* Return: 0 in succes
-*/
-int main(int argc, char *argv[])
-{
-	int i, n;
+%define sys_write 1
+%define stdout 1
 
+%define sys_exit 60
+%define success 0
 
-	if (argc != 2)
-	{
-		printf("Error\n");
-		return (1);
-	}
-	n = atoi(argv[1]);
-	if (n < 0)
-	{
-		printf("Error\n");
-		exit(2);
-	}
+%define nl 10
 
-	for (i = 0; i < n; i++)
-	{
-		printf("%02hhx", *((char *)main + i));
-		if (i < n - 1)
-			printf(" ");
-		else
-			printf("\n");
-	}
-	return (0);
-}
+section .data
+
+	message db "Hello, Holberton", nl
+
+section .text
+	global main
+main:
+	mov rax, sys_write
+	mov rdi, stdout
+	mov rsi, message
+	mov rdx, 17
+	syscall
+	mov    rax, sys_exit
+	mov    rdi, success
+	syscall
