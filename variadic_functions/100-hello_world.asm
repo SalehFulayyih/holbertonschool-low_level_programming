@@ -1,5 +1,4 @@
-; File: 100-hello_holberton.asm
-; Auth: Brennan D Baraban
+; File: 100-hello_world.asm
 ; Desc: 64-bit assembly program that prints
 ;       Hello, Holberton followed by a new line.
 
