@@ -1,20 +1,16 @@
-; File: 100-hello_world.asm
-; Desc: 64-bit assembly program that prints
-;       Hello, Holberton followed by a new line.
+section .data
+	msg db "Hello, Holberton",10
 
-section .text
-   global main
+	section .text
+	global main
 
 main:
-   mov edx,len
-   mov ecx,msg
-   mov ebx,1
-   mov eax,4
-   int 0x80
+	mov rax, 1
+	mov rdi, 1
+	mov rsi, msg
+	mov rdx, 17
+	syscall
 
-   mov eax,0
-   int 0x80
-
-section .data
-   msg: db 'Hello, Holberton', 0xa
-   len: equ $ - msg
+	mov rax, 60
+	mov rdi, 0
+	syscall
